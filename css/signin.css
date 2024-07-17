@@ -1,0 +1,97 @@
+body{
+    background-color: #FFF;
+}
+.signin {
+    display: flex;
+}
+    
+.s_foto {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    background: url('/img/login_signin/signin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.s_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 44%;
+}
+
+.s_text h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.s_form { 
+    flex-direction: column;
+    align-items: baseline;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.s_form input{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #7c7c7c;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 8px 0 20px;
+    width: 100%;
+}
+
+.s_form label{
+    color: #7c7c7c;
+}
+
+.button_s{
+    display: flex;
+    justify-content: center;
+}
+
+.button_s button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border: 1px solid #468764;
+    border-radius: 8px;
+    background-color: #468764;
+    color: #FFF;
+    font-size: 16px;
+    padding: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+  
+.s_form button:hover{
+    scale: 1.1;
+}
+  
+.s_form button:active{
+    scale: .9;
+}
+
+.s_form span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.s_form a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #468764;
+}
